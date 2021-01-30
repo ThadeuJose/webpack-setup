@@ -7,8 +7,7 @@ module.exports = {
   // https://webpack.js.org/concepts/entry-points/#multi-page-application
   entry: {
     index: "./src/index.js",
-    about: "./src/about.js",
-    contacts: "./src/contacts.js",
+    source: "./src/source.js",
   },
 
   output: {
@@ -26,17 +25,11 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: "./src/about.html",
+      template: "./src/source.html",
       inject: true,
-      chunks: ["about"],
-      filename: "about.html",
-    }),
-    new HtmlWebpackPlugin({
-      template: "./src/contacts.html",
-      inject: true,
-      chunks: ["contacts"],
-      filename: "contacts.html",
-    }),
+      chunks: ["source"],
+      filename: "source.html",
+    })
   ],
 
   // https://webpack.js.org/concepts/loaders/
