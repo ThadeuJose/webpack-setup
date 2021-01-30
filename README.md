@@ -3,14 +3,14 @@ A Webpack Setup with Babel, PostCSS, Tailwind who serve multiples HTML pages
 
 # TODO
 
-Make a SIMPLE create link from json or variable like o Quote.js  
-    Put code coverage 
-        Istanbul
-        https://docs.cypress.io/guides/tooling/code-coverage.html
+Put code coverage 
+    Istanbul
+    https://docs.cypress.io/guides/tooling/code-coverage.html
 
-    Put Unit tests 
-        https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/unit-testing__application-code
+Put Unit tests 
+    https://github.com/cypress-io/cypress-example-recipes/tree/master/examples/unit-testing__application-code
 
+Use and add in the links 
     https://github.com/iamolegga/prettier-loader
 
     Eslint 
@@ -20,8 +20,6 @@ Make a SIMPLE create link from json or variable like o Quote.js
 Remember BEM
 	Tem nesting and import 
 	https://tailwindcss.com/docs/using-with-preprocessors
-
-Finish the index page
 
 # Technical Debt 
 	
